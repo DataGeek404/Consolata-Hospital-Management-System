@@ -111,7 +111,7 @@ if (isset($_GET['editid'])) {
             </select>
             <span class="messages"></span>
         </div>
-        <label class="col-sm-2 col-form-label">Login Id</label>
+        <label class="col-sm-2 col-form-label">Email</label>
         <div class="col-sm-4">
             <input class="form-control" type="text" name="loginid" id="loginid" value="<?php if (isset($_GET['editid'])) { echo $rsedit['loginid']; } ?>"/>
             <span class="messages"></span>

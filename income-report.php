@@ -168,11 +168,12 @@ if(isset($_GET['delid']))
 
       </tbody>
       <tfoot>
-        <tr>
+        <!--<tr>
           <td></td>
           <td>Total Earnings :</td>
           <td>Ksh. <?php echo $billamt; ?></td>
         </tr>
+        --
       </tfoot>
 </table>
 </div>
